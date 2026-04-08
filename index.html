@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samved Warkade - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <h1>SW</h1>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2 class="greeting">Hi, I'm</h2>
+                <h1 class="name">Samved Warkade</h1>
+                <p class="title">Frontend Developer & Website Designer</p>
+                <p class="subtitle">Crafting beautiful, responsive web experiences with MERN Stack</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="card-item">HTML</div>
+                    <div class="card-item">CSS</div>
+                    <div class="card-item">JavaScript</div>
+                    <div class="card-item">React</div>
+                    <div class="card-item">Node.js</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate <span class="highlight">Frontend Developer & Website Designer</span> with hands-on
+                        experience in building responsive, user-centric websites. I specialize in crafting beautiful
+                        interfaces that combine aesthetics with functionality.</p>
+                    <p>With a <strong>Master's in Computer Application (MCA)</strong> and expertise in the
+                        <strong>MERN Stack</strong>, I've successfully delivered multiple full-stack projects, from AI-powered
+                        tools to financial applications. I'm dedicated to writing clean, maintainable code and staying updated
+                        with the latest web technologies.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>93%ile</h3>
+                            <p>MAH-CET Score</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="profile-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">HTML</div>
+                        <div class="skill-item">CSS</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Bootstrap</div>
+                        <div class="skill-item">React.js</div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">REST APIs</div>
+                        <div class="skill-item">Java</div>
+                    </div>
+                </div>
+
+                <!-- Database Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">Data Modeling</div>
+                        <div class="skill-item">Query Optimization</div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & CMS</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">VS Code</div>
+                        <div class="skill-item">GitHub</div>
+                        <div class="skill-item">WordPress</div>
+                        <div class="skill-item">Postman</div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-star"></i> Other</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Responsive Design</div>
+                        <div class="skill-item">UI/UX Design</div>
+                        <div class="skill-item">SEO Basics</div>
+                        <div class="skill-item">Web Maintenance</div>
+                    </div>
+                </div>
+
+                <!-- Design & Soft Skills -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Figma/Canva</div>
+                        <div class="skill-item">UI Prototyping</div>
+                        <div class="skill-item">Performance Opt.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Smart Expense Tracker</h3>
+                    <p class="project-tech">MERN Stack</p>
+                    <p class="project-description">Full-stack expense tracking app with secure authentication, category-wise
+                        expense management, real-time summaries, and visual analytics for monitoring spending habits.</p>
+                    <div class="project-tech-list">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>GenAI Code Assistant</h3>
+                    <p class="project-tech">MERN Stack</p>
+                    <p class="project-description">AI-powered coding assistant with Monaco Editor integration for real-time code
+                        editing, REST APIs for secure prompt processing, and responsive UI for code generation.</p>
+                    <div class="project-tech-list">
+                        <span>React</span>
+                        <span>Gemini API</span>
+                        <span>Express.js</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Project</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Weather App</h3>
+                    <p class="project-tech">Android / Java</p>
+                    <p class="project-description">Mobile application for real-time weather updates with API integration, JSON
+                        data parsing, and user-friendly interface designed for accessibility and ease of use.</p>
+                    <div class="project-tech-list">
+                        <span>Java</span>
+                        <span>Android</span>
+                        <span>API Integration</span>
+                    </div>
+                    <a href="#" class="project-link"><i class="fas fa-arrow-right"></i> View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="experience-container">
+                <!-- Experience Timeline -->
+                <div class="timeline">
+                    <h3 class="timeline-title">Professional Experience</h3>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>MERN Stack Developer Intern</h4>
+                            <p class="timeline-company">Fireblaze AI School</p>
+                            <p class="timeline-date">Aug 2025 – Feb 2026</p>
+                            <ul>
+                                <li>Developed and maintained full-stack web applications</li>
+                                <li>Worked on backend integration, APIs, and CRUD operations</li>
+                                <li>Assisted in website performance improvements and debugging</li>
+                                <li>Contributed to WordPress website updates and content management</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Java Full Stack Intern</h4>
+                            <p class="timeline-company">Codaaz Software Pvt. Ltd</p>
+                            <p class="timeline-date">Jan 2025 – June 2025</p>
+                            <ul>
+                                <li>Designed and developed web applications</li>
+                                <li>Participated in complete software development lifecycle</li>
+                                <li>Worked on UI improvements and bug fixing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Timeline -->
+                <div class="timeline">
+                    <h3 class="timeline-title">Education</h3>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Master of Computer Application (MCA)</h4>
+                            <p class="timeline-company">R.T.M. Nagpur University</p>
+                            <p class="timeline-date">2023 – 2025</p>
+                            <p class="timeline-detail">Inter Institute Computer Center (I.I.C.C.), Nagpur, Maharashtra</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Science (Computer Science)</h4>
+                            <p class="timeline-company">Seth Kesrimal Porwal College</p>
+                            <p class="timeline-date">2020 – 2023</p>
+                            <p class="timeline-detail">Kamptee, Nagpur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>MERN Stack Development</h4>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>NPTEL (Core Java)</h4>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>AI-ML Workshop</h4>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>Web Development (Zidio)</h4>
+                </div>
+                <div class="cert-item special">
+                    <i class="fas fa-trophy"></i>
+                    <h4>MAH-CET: 93 Percentile</h4>
+                </div>
+                <div class="cert-item">
+                    <i class="fas fa-certificate"></i>
+                    <h4>MSCIT</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Let's discuss your next awesome project</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917823032604">+91 7823032604</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:samvedwarkade2002@gmail.com">samvedwarkade2002@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Nagpur, Maharashtra</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://linkedin.com/in/samvedwarkade" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/samvedwarkade" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:samvedwarkade2002@gmail.com" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Samved Warkade. All rights reserved.</p>
+            <p>Crafted with <span class="heart">❤</span> using HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
